@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=lsd\ height
+comment0.target=MotorBird(javax.swing.JFrame,\ int)
+comment1.params=
+comment1.target=void\ drawBird()
+comment2.params=
+comment2.target=void\ flap()
+comment3.params=klefki
+comment3.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment4.params=klefki
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment5.params=klefki
+comment5.target=void\ keyTyped(java.awt.event.KeyEvent)
+numComments=6

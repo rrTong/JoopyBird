@@ -1,0 +1,100 @@
+import javax.swing.*;
+import java.awt.*;
+
+import java.awt.event.KeyListener;
+import java.awt.event.KeyEvent;
+
+public class FlappingOval
+{
+    public static void main(String[] args)
+    {
+        JFrame win;
+        Container contentPane;
+        Graphics g;
+        int height = 0;
+
+        win = new JFrame("JoopyBirdTest");
+        win.setSize(500,500);
+        win.setLocation(100,100);
+        win.setVisible(true);
+        win.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+        contentPane = win.getContentPane();
+        g = contentPane.getGraphics();
+
+        //KeyEvent e; 
+
+        try
+        {Thread.sleep(400);}
+        catch
+        (Exception e)
+        {}
+
+        for(int h = 100; h > 0; h = h + 10) 
+        {
+            //int key = e.getKeyCode();
+            //             if (key == KeyEvent.VK_SPACE) 
+            //             {
+            //                 g.fillOval(100, h-10, 100, 100);
+            //             }
+            //             else
+            {
+                try
+                {Thread.sleep(400);}
+                catch
+                (Exception e)
+                {}
+                g.setColor(new Color(255, 255, 0));
+                g.fillOval(100, h, 100, 100);
+                //nounderstandnoentiendonounderstandnoentiendonounderstandnoentiendonounderstandnoentiendo
+                try
+                {
+                    Thread.sleep(400);
+                    win.repaint();
+                }
+                catch(Exception e) {}
+            }
+        }
+    }
+    //     
+    //     public void setG(Graphics g)
+    //     {
+    //         Graphics gg = g;
+    //     }
+    //     
+    //     public getG()
+    //     {
+    //         return gg;
+    //     }
+    //     
+    //     public void keyPressed(KeyEvent e)
+    //     {
+    //         //Graphics gg = getG();
+    //         for(int h = 400; h > 0; h = h + 10)
+    //         {
+    //             
+    //         int key = e.getKeyCode();
+    //             if (key == KeyEvent.VK_SPACE) 
+    //             {
+    //                 g.fillOval(100, h-10, 100, 100);
+    //             }
+    //             else
+    //             {
+    //                 try
+    //                 {Thread.sleep(400);}
+    //                 catch
+    //                 (Exception e)
+    //                 {}
+    //                 g.setColor(new Color(255, 255, 0));
+    //                 g.fillOval(100, h, 100, 100);
+    //                 //nounderstandnoentiendonounderstandnoentiendonounderstandnoentiendonounderstandnoentiendo
+    //                 try
+    //                 {
+    //                     Thread.sleep(400);
+    //                     win.repaint();
+    //                 }
+    //                 catch(Exception e) {}
+    //}
+    //}
+    //}
+}
